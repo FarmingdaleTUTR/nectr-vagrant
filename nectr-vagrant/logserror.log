@@ -1,0 +1,338 @@
+[ERROR] -- Feb 27, 06:17:45 PM -- base:284 ___ Internal Server Error: / >>> { process: 11559 | thread: 140149997786880 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 129, in process_response
+    panel.generate_stats(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 127, in generate_stats
+    'staticfiles_finders': self.get_staticfiles_finders(),
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 138, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/finders.py", line 112, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/utils.py", line 28, in get_files
+    directories, files = storage.listdir(location)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/files/storage.py", line 299, in listdir
+    for entry in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vagrant/nectrvagrant/assets'
+[ERROR] -- Feb 27, 06:17:47 PM -- base:284 ___ Internal Server Error: /favicon.ico >>> { process: 11559 | thread: 140149997786880 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 129, in process_response
+    panel.generate_stats(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 127, in generate_stats
+    'staticfiles_finders': self.get_staticfiles_finders(),
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 138, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/finders.py", line 112, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/utils.py", line 28, in get_files
+    directories, files = storage.listdir(location)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/files/storage.py", line 299, in listdir
+    for entry in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vagrant/nectrvagrant/assets'
+[ERROR] -- Feb 27, 06:19:08 PM -- base:284 ___ Internal Server Error: / >>> { process: 11559 | thread: 140149997786880 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 129, in process_response
+    panel.generate_stats(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 127, in generate_stats
+    'staticfiles_finders': self.get_staticfiles_finders(),
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 138, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/finders.py", line 112, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/utils.py", line 28, in get_files
+    directories, files = storage.listdir(location)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/files/storage.py", line 299, in listdir
+    for entry in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vagrant/nectrvagrant/assets'
+[ERROR] -- Feb 27, 06:19:09 PM -- base:284 ___ Internal Server Error: /favicon.ico >>> { process: 11559 | thread: 140149997786880 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 129, in process_response
+    panel.generate_stats(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 127, in generate_stats
+    'staticfiles_finders': self.get_staticfiles_finders(),
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/panels/staticfiles.py", line 138, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/finders.py", line 112, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/contrib/staticfiles/utils.py", line 28, in get_files
+    directories, files = storage.listdir(location)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/files/storage.py", line 299, in listdir
+    for entry in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vagrant/nectrvagrant/assets'
+[ERROR] -- Feb 27, 06:20:11 PM -- base:284 ___ Internal Server Error: / >>> { process: 11559 | thread: 140149997786880 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'config.djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'config.djdt' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 131, in process_response
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/toolbar.py", line 64, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/test/utils.py", line 92, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR] -- Feb 27, 06:20:12 PM -- base:284 ___ Internal Server Error: /favicon.ico >>> { process: 11559 | thread: 140149997786880 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'config.djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'config.djdt' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 131, in process_response
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/toolbar.py", line 64, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/test/utils.py", line 92, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR] -- Feb 27, 07:32:33 PM -- base:284 ___ Internal Server Error: / >>> { process: 11580 | thread: 140294599735040 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'config.djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'config.djdt' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 131, in process_response
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/toolbar.py", line 64, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/test/utils.py", line 92, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR] -- Feb 27, 07:32:34 PM -- base:284 ___ Internal Server Error: /favicon.ico >>> { process: 11580 | thread: 140294599735040 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'config.djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'config.djdt' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 131, in process_response
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/toolbar.py", line 64, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/test/utils.py", line 92, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR] -- Feb 27, 07:44:58 PM -- base:284 ___ Internal Server Error: /admin/login/ >>> { process: 12679 | thread: 140152024160000 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'config.djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'config.djdt' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 131, in process_response
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/toolbar.py", line 64, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/test/utils.py", line 92, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'djdt' is not a registered namespace
+[ERROR] -- Feb 27, 07:44:59 PM -- base:284 ___ Internal Server Error: /favicon.ico >>> { process: 12679 | thread: 140152024160000 }
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 586, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'config.djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'config.djdt' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/middleware.py", line 131, in process_response
+    bits[-2] += toolbar.render_toolbar()
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/debug_toolbar/toolbar.py", line 64, in render_toolbar
+    return render_to_string('debug_toolbar/base.html', context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/test/utils.py", line 92, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/vagrant/.virtualenvs/nectrvagrant3/lib/python3.4/site-packages/django/core/urlresolvers.py", line 596, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'djdt' is not a registered namespace

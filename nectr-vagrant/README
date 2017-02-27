@@ -1,0 +1,9 @@
+Installing prerequisites under Windows:
+
+Download and install Virtual Box. Attention! There are known problems with VirtualBox 5.0.2 on Windows 10 hosts and with Windows 10 guests. Some of the problems are fixed in the most recent test build which can be found at https://www.virtualbox.org/wiki/Testbuilds.
+
+Download and install Vagrant for Windows https://www.vagrantup.com/downloads.html
+
+Download and install GitHub Desktop for Windows at https://desktop.github.com/
+
+From now on use Git Shell (on your Desktop) to run all commands since it supports some Linux commands natively, most importantly SSH. This means you won't have to install and set up Putty.
