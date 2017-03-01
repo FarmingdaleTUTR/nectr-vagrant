@@ -6,5 +6,9 @@ django-extensions>=1.6.1
 django-nose==1.4.2
 coverage>=4.0.3
 
+# BDD Tools
+behave>=1.2.5
+behave-django>=0.4.1
+
 # debug tools
 django-debug-toolbar>=1.4
